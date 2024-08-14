@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0%
+        }
+    .container{
+        width:100%;
+        height:800px;
+        background-color: aqua;
+        padding: 10px;
+    }
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        text-shadow: 2px 2px 2px lightcoral;
+    }
+
+    
+</style>
+</head>
+<body>
+    <form action="./conform_order.html">
+        <div class="container">
+        <dl>
+            <dt>
+        <label for="user">enter user name </label></dt><br>
+        <dd><input type="text" name="username" id="user" placeholder="enter user name" pattern="[a-zA-Z]+" required></dd><br>
+        <dt>
+            <label for="amount">enter password </label></dt><br>
+            <dd><input type="text" name="pasword" id="amount" placeholder="enter password" pattern="[0-9]+" required autofocus></dd><br>
+            <dt>
+                <label for="email">enter email </label></dt><br>
+                <dd><input type="email" name="email" id="email" placeholder="enter email" required></dd><br>
+                <dt>
+                    <label for="mobile">enter mobile number </label></dt><br>
+                    <dd><input type="number" name="number" id="number" placeholder="enter mobile number"  required autofocus></dd><br>
+
+    </dl>
+    <input type="submit" value="register">
+    </form><br><br>
+    <a href="./css3.html">Go to 3rd html page</a>
+</div>
+</body>
+</html>
